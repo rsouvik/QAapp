@@ -8,7 +8,7 @@
 
 #import "QAAppDelegate.h"
 
-#import "QAMasterViewController.h"
+//#import "QAMasterViewController.h"
 
 @implementation QAAppDelegate
 

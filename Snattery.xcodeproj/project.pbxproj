@@ -19,8 +19,6 @@
 		A2970EB6198A1A0500D2B062 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2970EB5198A1A0500D2B062 /* Default-568h@2x.png */; };
 		A2970EB9198A1A0500D2B062 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2970EB7198A1A0500D2B062 /* MainStoryboard.storyboard */; };
 		A2970EBC198A1A0500D2B062 /* Snattery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2970EBA198A1A0500D2B062 /* Snattery.xcdatamodeld */; };
-		A2970EBF198A1A0500D2B062 /* QAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2970EBE198A1A0500D2B062 /* QAMasterViewController.m */; };
-		A2970EC2198A1A0500D2B062 /* QADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2970EC1198A1A0500D2B062 /* QADetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +38,6 @@
 		A2970EB5198A1A0500D2B062 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A2970EB8198A1A0500D2B062 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A2970EBB198A1A0500D2B062 /* Snattery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Snattery.xcdatamodel; sourceTree = "<group>"; };
-		A2970EBD198A1A0500D2B062 /* QAMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAMasterViewController.h; sourceTree = "<group>"; };
-		A2970EBE198A1A0500D2B062 /* QAMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QAMasterViewController.m; sourceTree = "<group>"; };
-		A2970EC0198A1A0500D2B062 /* QADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QADetailViewController.h; sourceTree = "<group>"; };
-		A2970EC1198A1A0500D2B062 /* QADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QADetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +89,6 @@
 				A2970EAE198A1A0500D2B062 /* QAAppDelegate.h */,
 				A2970EAF198A1A0500D2B062 /* QAAppDelegate.m */,
 				A2970EB7198A1A0500D2B062 /* MainStoryboard.storyboard */,
-				A2970EBD198A1A0500D2B062 /* QAMasterViewController.h */,
-				A2970EBE198A1A0500D2B062 /* QAMasterViewController.m */,
-				A2970EC0198A1A0500D2B062 /* QADetailViewController.h */,
-				A2970EC1198A1A0500D2B062 /* QADetailViewController.m */,
 				A2970EBA198A1A0500D2B062 /* Snattery.xcdatamodeld */,
 				A2970EA6198A1A0500D2B062 /* Supporting Files */,
 			);
@@ -189,8 +179,6 @@
 				A2970EAC198A1A0500D2B062 /* main.m in Sources */,
 				A2970EB0198A1A0500D2B062 /* QAAppDelegate.m in Sources */,
 				A2970EBC198A1A0500D2B062 /* Snattery.xcdatamodeld in Sources */,
-				A2970EBF198A1A0500D2B062 /* QAMasterViewController.m in Sources */,
-				A2970EC2198A1A0500D2B062 /* QADetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
