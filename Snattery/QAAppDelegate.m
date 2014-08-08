@@ -12,6 +12,10 @@
 
 @implementation QAAppDelegate
 
+@synthesize window = _window,
+navigationController = _navigationController,
+loginViewController = _loginViewController;
+
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
@@ -19,9 +23,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    /*UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     QAMasterViewController *controller = (QAMasterViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    return YES;*/
+    
+    UIStoryboard *stryBoard=[UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    self.loginViewController=[stryBoard instantiateViewControllerWithIdentifier:@"loginview"];
+    //self.mainViewController=[stryBoard instantiateViewControllerWithIdentifier:@"baseview"];
+    self.navigationController=[[UINavigationController alloc]
+                               initWithRootViewController:self.loginViewController];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = self.navigationController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

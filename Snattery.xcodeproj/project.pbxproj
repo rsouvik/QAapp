@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2246962199587A60013517A /* QAAppLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2246961199587A60013517A /* QAAppLoginViewController.m */; };
 		A2970E9E198A1A0500D2B062 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2970E9D198A1A0500D2B062 /* UIKit.framework */; };
 		A2970EA0198A1A0500D2B062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2970E9F198A1A0500D2B062 /* Foundation.framework */; };
 		A2970EA2198A1A0500D2B062 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2970EA1198A1A0500D2B062 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2246960199587A60013517A /* QAAppLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAAppLoginViewController.h; sourceTree = "<group>"; };
+		A2246961199587A60013517A /* QAAppLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAAppLoginViewController.m; sourceTree = "<group>"; };
 		A2970E9A198A1A0500D2B062 /* Snattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2970E9D198A1A0500D2B062 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A2970E9F198A1A0500D2B062 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +94,8 @@
 				A2970EB7198A1A0500D2B062 /* MainStoryboard.storyboard */,
 				A2970EBA198A1A0500D2B062 /* Snattery.xcdatamodeld */,
 				A2970EA6198A1A0500D2B062 /* Supporting Files */,
+				A2246960199587A60013517A /* QAAppLoginViewController.h */,
+				A2246961199587A60013517A /* QAAppLoginViewController.m */,
 			);
 			path = Snattery;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				A2970EAC198A1A0500D2B062 /* main.m in Sources */,
 				A2970EB0198A1A0500D2B062 /* QAAppDelegate.m in Sources */,
 				A2970EBC198A1A0500D2B062 /* Snattery.xcdatamodeld in Sources */,
+				A2246962199587A60013517A /* QAAppLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +307,7 @@
 				A2970EC7198A1A0500D2B062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

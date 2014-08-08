@@ -8,13 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QAAppDelegate : UIResponder <UIApplicationDelegate>
+@class QAAppLoginViewController;
+
+@interface QAAppDelegate : UIResponder <UIApplicationDelegate,UINavigationControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+@property (strong, nonatomic) QAAppLoginViewController* loginViewController;
+@property (strong, nonatomic) UINavigationController *navigationController;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
