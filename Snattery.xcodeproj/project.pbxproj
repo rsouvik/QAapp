@@ -20,6 +20,9 @@
 		A2970EB6198A1A0500D2B062 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2970EB5198A1A0500D2B062 /* Default-568h@2x.png */; };
 		A2970EB9198A1A0500D2B062 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2970EB7198A1A0500D2B062 /* MainStoryboard.storyboard */; };
 		A2970EBC198A1A0500D2B062 /* Snattery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2970EBA198A1A0500D2B062 /* Snattery.xcdatamodeld */; };
+		A2A187A2199DF06B00CD2129 /* SnUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A187A1199DF06B00CD2129 /* SnUser.m */; };
+		A2A187A5199DF0DA00CD2129 /* SnQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A187A4199DF0DA00CD2129 /* SnQuestion.m */; };
+		A2A187A8199DF11E00CD2129 /* SnAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A187A7199DF11E00CD2129 /* SnAnswer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,12 @@
 		A2970EB5198A1A0500D2B062 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A2970EB8198A1A0500D2B062 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A2970EBB198A1A0500D2B062 /* Snattery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Snattery.xcdatamodel; sourceTree = "<group>"; };
+		A2A187A0199DF06B00CD2129 /* SnUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnUser.h; sourceTree = "<group>"; };
+		A2A187A1199DF06B00CD2129 /* SnUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnUser.m; sourceTree = "<group>"; };
+		A2A187A3199DF0DA00CD2129 /* SnQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnQuestion.h; sourceTree = "<group>"; };
+		A2A187A4199DF0DA00CD2129 /* SnQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnQuestion.m; sourceTree = "<group>"; };
+		A2A187A6199DF11E00CD2129 /* SnAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnAnswer.h; sourceTree = "<group>"; };
+		A2A187A7199DF11E00CD2129 /* SnAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnAnswer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,12 @@
 				A2970EAF198A1A0500D2B062 /* QAAppDelegate.m */,
 				A2970EB7198A1A0500D2B062 /* MainStoryboard.storyboard */,
 				A2970EBA198A1A0500D2B062 /* Snattery.xcdatamodeld */,
+				A2A187A6199DF11E00CD2129 /* SnAnswer.h */,
+				A2A187A7199DF11E00CD2129 /* SnAnswer.m */,
+				A2A187A3199DF0DA00CD2129 /* SnQuestion.h */,
+				A2A187A4199DF0DA00CD2129 /* SnQuestion.m */,
+				A2A187A0199DF06B00CD2129 /* SnUser.h */,
+				A2A187A1199DF06B00CD2129 /* SnUser.m */,
 				A2970EA6198A1A0500D2B062 /* Supporting Files */,
 				A2246960199587A60013517A /* QAAppLoginViewController.h */,
 				A2246961199587A60013517A /* QAAppLoginViewController.m */,
@@ -185,6 +200,9 @@
 				A2970EB0198A1A0500D2B062 /* QAAppDelegate.m in Sources */,
 				A2970EBC198A1A0500D2B062 /* Snattery.xcdatamodeld in Sources */,
 				A2246962199587A60013517A /* QAAppLoginViewController.m in Sources */,
+				A2A187A2199DF06B00CD2129 /* SnUser.m in Sources */,
+				A2A187A5199DF0DA00CD2129 /* SnQuestion.m in Sources */,
+				A2A187A8199DF11E00CD2129 /* SnAnswer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
